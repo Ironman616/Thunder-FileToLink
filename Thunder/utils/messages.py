@@ -171,7 +171,7 @@ MSG_QUICK_START_GUIDE = (
 # ------ Welcome, Help, About ------
 MSG_WELCOME = (
     "🌟 **Welcome, {user_name}!** 🌟\n\n"
-    "I'm **Thunder File to Link Bot** ⚡\n"
+    "I'm **Telex File2link Bot** ⚡\n"
     "I generate direct download and streaming links for your files.\n\n"
     "**How to use:**\n"
     "1. Send any file to me for private links.\n"
@@ -181,7 +181,7 @@ MSG_WELCOME = (
 )
 
 MSG_HELP = (
-    "📘 **Thunder Bot - Help Guide** 📖\n\n"
+    "📘 **Telex Bot - Help Guide** 📖\n\n"
     "How to get direct download & streaming links:\n\n"
     "**🚀 Private Chat (with me):**\n"
     "> 1. Send me **any file** (document, video, audio, photo, etc.).\n"
