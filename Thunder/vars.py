@@ -50,7 +50,7 @@ class Var:
 
     OWNER_USERNAME: str = os.getenv("OWNER_USERNAME", "Spidey_Professor")
 
-    FQDN: str = os.getenv("FQDN", "https://profound-nance-wickson-62929175.koyeb.app/") or BIND_ADDRESS
+    FQDN: str = os.getenv("FQDN", "thoughtful-shayne-mlfiles-5730e5e6.koyeb.app/") or BIND_ADDRESS
     HAS_SSL: bool = str_to_bool(os.getenv("HAS_SSL", "False"))
     PROTOCOL: str = "https" if HAS_SSL else "http"
     PORT_SEGMENT: str = "" if NO_PORT else f":{PORT}"
@@ -70,7 +70,7 @@ class Var:
 
     FORCE_CHANNEL_ID: Optional[int] = None
 
-    force_channel_env = os.getenv("FORCE_CHANNEL_ID", "-1001948256614").strip()
+    force_channel_env = os.getenv("FORCE_CHANNEL_ID", "-1001640099591").strip()
 
     if force_channel_env:
         try:
