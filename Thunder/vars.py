@@ -26,7 +26,7 @@ class Var:
         logger.critical("Missing required Telegram API configuration")
         raise ValueError("Missing required Telegram API configuration")
 
-    NAME: str = os.getenv("NAME", "Telex File2link Bot")
+    NAME: str = os.getenv("NAME", "TelexFile2linkBot")
     SLEEP_THRESHOLD: int = int(os.getenv("SLEEP_THRESHOLD", "120"))
     WORKERS: int = int(os.getenv("WORKERS", "8"))
     TIMEOUT: int = int(os.getenv("TIMEOUT", "90"))
